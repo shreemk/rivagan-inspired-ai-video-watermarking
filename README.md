@@ -53,6 +53,13 @@ The watermark is evaluated under:
 
 ## Results
 
+The model achieved:
+
+- Peak PSNR: 64.35 dB
+- Peak SSIM: 0.9998
+- Successful watermark recovery under multiple attack conditions
+- Robust performance against Gaussian Noise, Blur, Crop, Resize, and Quantization attacks
+  
 The model demonstrates:
 
 - High visual quality after watermark embedding
@@ -60,6 +67,27 @@ The model demonstrates:
 - Attention-guided embedding regions
 - Robustness against common image/video attacks
 
+## Visual Results
+
+### Attention Heatmap
+
+![Attention Heatmap](results/attention_heatmap.png)
+
+### PSNR and SSIM
+
+![PSNR SSIM](results/psnr_ssim.png)
+
+### Quality Metrics
+
+![Quality Metrics](results/quality_metrics.png)
+
+### Loss Curves
+
+![Loss Curves](results/loss_curves.png)
+
+### Training Validation Loss
+
+![Training Validation Loss](results/train_val_loss.png)
 ---
 
 ## Project Structure
